@@ -77,3 +77,5 @@ D:\workspace\OdeToFood\OdeToFood.Web\obj\Debug\OdeToFood.Web.csproj.CoreCompileI
 D:\workspace\OdeToFood\OdeToFood.Web\obj\Debug\OdeToFood.Web.csproj.CopyComplete
 D:\workspace\OdeToFood\OdeToFood.Web\obj\Debug\OdeToFood.Web.dll
 D:\workspace\OdeToFood\OdeToFood.Web\obj\Debug\OdeToFood.Web.pdb
+D:\workspace\OdeToFood\OdeToFood.Web\bin\OdeToFood.Data.dll
+D:\workspace\OdeToFood\OdeToFood.Web\bin\OdeToFood.Data.pdb
