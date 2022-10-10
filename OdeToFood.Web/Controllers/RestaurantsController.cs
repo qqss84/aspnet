@@ -6,9 +6,9 @@ using System.Web.Mvc;
 
 namespace OdeToFood.Web.Controllers
 {
-    public class TotoController : Controller
+    public class RestaurantsController : Controller
     {
-        // GET: Toto
+        // GET: Restaurants
         public ActionResult Index()
         {
             return View();

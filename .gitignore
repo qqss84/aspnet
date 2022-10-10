@@ -2,6 +2,13 @@
 ./OdeToFood.Data/obj
 ./.vs
 
+.idea/
+obj/
+debug/
+release/
+bin/
+.vscode
+.vs/
 
 # User-specific files
 *.rsuser
