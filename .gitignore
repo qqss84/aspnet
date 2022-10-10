@@ -2,7 +2,7 @@ OdeToFood.Data/bin/
 OdeToFood.Data/obj/
 OdeToFood.Web/bin/
 OdeToFood.Web/obj/
-./.vs
+.vs/
 
 .idea/
 obj/
