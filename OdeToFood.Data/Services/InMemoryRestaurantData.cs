@@ -7,11 +7,11 @@ namespace OdeToFood.Data.Services
 {
     public class InMemoryRestaurantData : IRestaurantData
     {
-        private List<Restaurant> restaurants;
+        private List<Restaurant> _restaurants;
 
         public InMemoryRestaurantData()
         {
-            restaurants = new List<Restaurant>()
+            _restaurants = new List<Restaurant>()
             {
                 new Restaurant {Id = 1, Name = "Scott's Pizza", Cuisine = CuisineType.Italien},
                 new Restaurant {Id = 2, Name = "Tersiguels", Cuisine = CuisineType.French},
@@ -19,9 +19,14 @@ namespace OdeToFood.Data.Services
             };
         }
 
+        public Restaurant Get(int id)
+        {
+            return _restaurants.FirstOrDefault(r => r.Id== id);
+        }
+
         public IEnumerable<Restaurant> GetAll()
         {
-            return restaurants.OrderBy(r => r.Name);
+            return _restaurants.OrderBy(r => r.Name);
         }
     }
 }
