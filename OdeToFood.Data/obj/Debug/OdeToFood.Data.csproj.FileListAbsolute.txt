@@ -1,6 +1,0 @@
-D:\workspace\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.dll
-D:\workspace\OdeToFood\OdeToFood.Data\bin\Debug\OdeToFood.Data.pdb
-D:\workspace\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csprojAssemblyReference.cache
-D:\workspace\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.csproj.CoreCompileInputs.cache
-D:\workspace\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.dll
-D:\workspace\OdeToFood\OdeToFood.Data\obj\Debug\OdeToFood.Data.pdb
