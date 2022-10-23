@@ -34,5 +34,15 @@ namespace OdeToFood.Data.Services
             _restaurants.Add(restaurant);
             restaurant.Id = _restaurants.Max(r => r.Id) + 1;
         }
+
+        public void Update(Restaurant restaurant)
+        {
+            var existing = Get(restaurant.Id);
+            if (existing != null)
+            {
+                existing.Name = restaurant.Name;
+                existing.Cuisine = restaurant.Cuisine;
+            }
+        }
     }
 }
