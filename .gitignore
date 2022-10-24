@@ -3,6 +3,8 @@ OdeToFood.Data/obj/
 OdeToFood.Web/bin/
 OdeToFood.Web/obj/
 .vs/
+.vs/OdeToFood/config
+.vs/OdeToFood/v17
 
 .idea/
 obj/
@@ -10,7 +12,6 @@ debug/
 release/
 bin/
 .vscode
-.vs/
 
 # User-specific files
 *.rsuser
